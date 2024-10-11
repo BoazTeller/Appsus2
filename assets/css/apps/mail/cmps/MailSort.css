@@ -1,0 +1,80 @@
+.mail-sort {
+    display: flex;
+
+    border-bottom: 1px solid #e1e7ee;
+    padding-inline-start: 1em;
+    padding-block: 0.5em;
+
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: inset 0 -1px 0 0 transparent;
+
+}
+
+.mail-sort button {
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(95, 99, 104);
+    /* border: 1px solid rgb(95, 99, 104); */
+    /* padding: 0.5em 1em; */
+
+    /* margin: 0.3em; */
+    /* gap: 8px; */
+    padding: 0;
+    /* padding-left: 0.75resm; */
+    /* padding-block: 6px; */
+    /* height: 100%; */
+    color: #444746;
+    font-size: 0.875rem;
+    border-radius: 8px;
+    gap: 8px;
+/* border 5f6360 */
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    height: 32px;
+
+    /* cadet color #5f6368 */
+
+    /* 1px #747775 solid */
+
+    transition: background .2s .1s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.mail-sort .label {
+    /* display: inline-block; 10w x 5 */
+    font-family: 'GoogleSans-Med';
+    font-size: 0.875rem;
+    letter-spacing: 0.25px;
+    line-height: 18px;
+
+}
+
+.mail-list button:hover {
+    background-color: #eaebede8;
+}
+/* 
+.mail-sort select {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(95, 99, 104);
+    border: 1px solid rgb(95, 99, 104);
+    padding: 0.5em 1em;
+    margin: 0.3em;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.mail-sort select::-ms-expand {
+    display: none; 
+}
+.mail-sort select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000; */
+

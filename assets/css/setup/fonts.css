@@ -1,0 +1,72 @@
+/* GoogleSans */
+@font-face {
+    font-family: 'GoogleSans-Reg';
+    src: url('../../fonts/GoogleSans/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Med';
+    src: url('../../fonts/GoogleSans/GoogleSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../../fonts/GoogleSans/GoogleSans-Bold.ttf');
+}
+
+/* Roboto */
+@font-face {
+    font-family: RobotoThin;
+    src: url(../../fonts/Roboto/Roboto-Thin.ttf);
+}
+  
+@font-face {
+    font-family: RobotoLight;
+    src: url(../../fonts/Roboto/Roboto-Light.ttf);
+}
+  
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+}
+  
+@font-face {
+    font-family: RobotoBold;
+    src: url(../../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+/* Font Awesome */
+@font-face {
+  font-family: 'faRegular';
+  src: url('../../fonts/fa/fa-regular-400.ttf');
+}
+
+@font-face {
+  font-family: 'faSolid';
+  src: url('../../fonts/fa/fa-solid-900.ttf');
+}
+
+@font-face {
+  font-family: 'faBrands';
+  src: url('../../fonts/fa/fa-brands-400.ttf');
+}
+
+.faRegular::before {
+    font-family: 'faRegular'; 
+} 
+
+.faSolid::before {
+    font-family: 'faSolid'; 
+}
+
+.faSolid::after {
+    font-family: 'faSolid'; 
+}
+
+.faSolid.caret-up::after {
+    content: '\f0d8';
+}
+
+.faSolid.caret-down::after {
+    content: '\f0d7';
+}
